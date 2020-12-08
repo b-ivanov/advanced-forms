@@ -42,15 +42,16 @@ class GetServerData {
 	getConstructObject() {
 		return new Promise((resolve, reject) => {
 			if (this.formObject.urls && this.formObject.urls.getData) {
-				/*setTimeout(() => {
-					this.resolveFunc(resolve);
-				}, 3000);*/
-				this.getServerDataForForm().then((data) => {
+				setTimeout(() => {
+					resolve(null);
+					this.endOfCalls();
+				}, 3000);
+				/*this.getServerDataForForm().then((data) => {
 					resolve(data);
 					this.endOfCalls();
 				}).catch((error) => {
 					console.error(error);
-				});
+				});*/
 			} else {
 				resolve(null);
 				this.endOfCalls();

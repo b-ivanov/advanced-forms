@@ -42,10 +42,7 @@ export default {
 		onMounted(() => {
 			const { proxy } = getCurrentInstance();
 			const router = useRouter();
-			const ServerComm = new ServerCommunicator({
-				origin: "http://10.50.0.41"
-				// origin: "http://192.168.13.246"
-			});
+			const ServerComm = new ServerCommunicator();
 			/*const autoLogoutTimer = new IdleTimer({
 				idleTime: 3000,
 				callback: (message) => {
@@ -57,7 +54,7 @@ export default {
 			 * Fired when a data has to be retrieved from the server.
 			 *
 			 * @event data-transmition-event
-			 * @param {Object}								options	configuration object containing url, method, data for request and a callback function when data is retrieved
+			 * @param {Object}		options	configuration object containing url, method, data for request and a callback function when data is retrieved
 			 * @author bivanov
 			 */
 			proxy.eventBus.on('data-transmition-event', (options) => {

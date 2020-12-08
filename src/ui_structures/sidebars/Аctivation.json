@@ -41,18 +41,6 @@
 					"route": "/"
 				}
 			]
-		}, {
-			"uniqueID": "02-testKey",
-			"isSelected": false,
-			"isPassed": false,
-			"route": "/",
-			"children": []
-		}, {
-			"uniqueID": "03-liveKey",
-			"isSelected": false,
-			"isPassed": false,
-			"route": "/",
-			"children": []
 		}
 	]
 }

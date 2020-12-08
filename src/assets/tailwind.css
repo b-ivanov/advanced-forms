@@ -109,56 +109,8 @@
 			@apply h-screen z-10 left-0;
 			position: initial;
 		}
-		.layout aside::before {
-			@apply bg-accentYellow;
-			content: '';
-			position: absolute;
-			border-radius: 78px;
-			bottom: -106px;
-			left: -12%;
-			width: 18%;
-			height: 0;
-			padding-top: 20%;
-			transform: matrix(0.9, -0.44, 0.44, 0.9, 0, 0);
-		}
-		.layout aside::after {
-			@apply bg-accentBlue;
-			content: '';
-			position: absolute;
-			border-radius: 78px;
-			bottom: -110px;
-			left: -14%;
-			width: 18%;
-			height: 0;
-			padding-top: 20%;
-			transform: matrix(0.9, -0.44, 0.44, 0.9, 0, 0);
-		}
 		.layout.sidebarVisible .content {
 			@apply w-full;
-		}
-		.layout:not(.sidebarVisible) .content::before {
-			@apply bg-accentYellow;
-			content: '';
-			position: absolute;
-			border-radius: 78px;
-			top: 110px;
-			right: -13%;
-			width: 21%;
-			height: 0;
-			padding-top: 27%;
-			transform: matrix(0.97, -0.24, 0.24, 0.97, 0, 0);
-		}
-		.layout:not(.sidebarVisible) .content::after {
-			@apply bg-accentBlue;
-			content: '';
-			position: absolute;
-			border-radius: 78px;
-			bottom: 20px;
-			left: -15%;
-			width: 28.64%;
-			height: 0;
-			padding-top: 28%;
-			transform: matrix(0.9, -0.44, 0.44, 0.9, 0, 0);
 		}
 		.layout .sidebarToggleBtn {
 			@apply hidden;

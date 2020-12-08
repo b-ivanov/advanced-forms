@@ -4,15 +4,13 @@
 	},
 	"sidebars": {
 		"activation": {
-			"01-activation": "Activate your account",
+			"01-activation": "Activation wizard",
 			"01-01-businessDetails": "Business details",
 			"01-02-businessRepresentative": "Business representative",
 			"01-03-bank": "Bank details",
 			"01-04-processingInfo": "Processing information",
 			"01-05-risk": "Risk management questionnaire",
-			"01-06-docs": "Supporting documents",
-			"02-testKey": "Get your test API key",
-			"03-liveKey": "Get your live API key"
+			"01-06-docs": "Supporting documents"
 		}
 	},
 	"forms": {
