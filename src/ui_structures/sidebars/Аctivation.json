@@ -1,0 +1,58 @@
+{
+	"name": "activation",
+	"companyName": "Company EOOD",
+	"companyLogo": "<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'><g transform='translate(-68 -58)'><circle fill='#0057ec' cx='14' cy='14' r='14' transform='translate(68 58)'></circle><path fill='#ffffff' d='M462.42,812.245h-.884v5.307h-1.769v-5.307h-3.538v5.307h-8.844v-5.307H446.5v-1.769l.884-4.422h14.151l.884,4.422Zm-.884-8.844v1.769H447.384V803.4Zm-7.076,12.382v-3.538h-5.307v3.538Z' transform='translate(-372.198 -739.213)'></path></g></svg>",
+	"options": [
+		{
+			"uniqueID": "01-activation",
+			"isSelected": true,
+			"isPassed": false,
+			"route": "/activation",
+			"children": [
+				{
+					"uniqueID": "01-01-businessDetails",
+					"isSelected": true,
+					"isPassed": false,
+					"route": "/businessdetails"
+				}, {
+					"uniqueID": "01-02-businessRepresentative",
+					"isSelected": false,
+					"isPassed": false,
+					"route": "/businessrepresentative"
+				}, {
+					"uniqueID": "01-03-bank",
+					"isSelected": false,
+					"isPassed": false,
+					"route": "/"
+				}, {
+					"uniqueID": "01-04-processingInfo",
+					"isSelected": false,
+					"isPassed": false,
+					"route": "/"
+				}, {
+					"uniqueID": "01-05-risk",
+					"isSelected": false,
+					"isPassed": false,
+					"route": "/"
+				}, {
+					"uniqueID": "01-06-docs",
+					"isSelected": false,
+					"isPassed": false,
+					"route": "/"
+				}
+			]
+		}, {
+			"uniqueID": "02-testKey",
+			"isSelected": false,
+			"isPassed": false,
+			"route": "/",
+			"children": []
+		}, {
+			"uniqueID": "03-liveKey",
+			"isSelected": false,
+			"isPassed": false,
+			"route": "/",
+			"children": []
+		}
+	]
+}
