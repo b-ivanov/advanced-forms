@@ -6,8 +6,8 @@ Advanced forms is single page application developed using Vue 3 and additional m
 ## Build
 To build and run the application clone this git repository, install the needed modules and run the development server. This is done with a few commands:
 ```
-npm install
 cd advanced-forms
+npm install
 npm run serve
 ```
 

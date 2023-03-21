@@ -85,6 +85,42 @@ class ViewsConfig {
 				isSidebarVisible: true,
 				registerAsRoute: true
 			},
+			BankDetails: {
+				path: "/bankdetails",
+				sidebar: "Аctivation",
+				headerName: "NavigationListInSystem",
+				component: ViewConstructor,
+				isHeaderVisible: true,
+				isSidebarVisible: true,
+				registerAsRoute: true
+			},
+			ProcessingInformation: {
+				path: "/processinginformation",
+				sidebar: "Аctivation",
+				headerName: "NavigationListInSystem",
+				component: ViewConstructor,
+				isHeaderVisible: true,
+				isSidebarVisible: true,
+				registerAsRoute: true
+			},
+			RiskManagement: {
+				path: "/riskmanagement",
+				sidebar: "Аctivation",
+				headerName: "NavigationListInSystem",
+				component: ViewConstructor,
+				isHeaderVisible: true,
+				isSidebarVisible: true,
+				registerAsRoute: true
+			},
+			SupportingDocuments: {
+				path: "/supportingdocuments",
+				sidebar: "Аctivation",
+				headerName: "NavigationListInSystem",
+				component: ViewConstructor,
+				isHeaderVisible: true,
+				isSidebarVisible: true,
+				registerAsRoute: true
+			},
 			NotFound: {
 				path: "/:catchAll(.*)",
 				sidebar: null,
@@ -95,7 +131,7 @@ class ViewsConfig {
 				registerAsRoute: true
 			}
 		};
-	};
+	}
 
 	/**
 	* Returns valid routes array for the Vue router.
@@ -116,7 +152,7 @@ class ViewsConfig {
 			}
 		}
 		return routes;
-	};
+	}
 
 	/**
 	* Returns true if route should be included in the Vue router, else false.
@@ -133,7 +169,7 @@ class ViewsConfig {
 			}
 		}
 		return false;
-	};
+	}
 
 	/**
 	* Returns a config object for a given path.
@@ -165,7 +201,7 @@ class ViewsConfig {
 			isHeaderVisible: this.views.NotFound.isHeaderVisible,
 			isSidebarVisible: this.views.NotFound.isSidebarVisible
 		};
-	};
+	}
 }
 
 export default ViewsConfig;
